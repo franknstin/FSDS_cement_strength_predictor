@@ -2,7 +2,6 @@ import os
 import sys
 import logging
 
-from pyrsistent import T
 
 
 logging_str = "[%(asctime)s: %(levelname)s: %(module)s]: %(message)s"
