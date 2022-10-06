@@ -146,4 +146,6 @@ mlruns/*
 research/mlflow_dir/mlruns/*
 prediction_service/model.h5
 
-.xls
+# vscode
+*.xls
+*.csv
