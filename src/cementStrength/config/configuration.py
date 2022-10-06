@@ -20,11 +20,14 @@ class ConfigurationManager:
         config = self.config.data_ingestion
 
         create_directories([config.root_dir])
+        create_directories([config.ingested_data_train_dir, config.ingested_data_test_dir])
 
         data_ingestion_config = DataIngestionConfig(
             root_dir=config.root_dir,
             source_URL=config.source_URL,
             local_data_file=config.local_data_file,
-            unzip_dir=config.unzip_dir
+            unzip_dir=config.unzip_dir,
+            ingested_data_train_dir = config.ingested_data_train_dir,
+            ingested_data_test_dir= config.ingested_data_test_dir
         )
         return data_ingestion_config
