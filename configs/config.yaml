@@ -5,4 +5,5 @@ data_ingestion:
   source_URL: https://archive.ics.uci.edu/ml/machine-learning-databases/concrete/compressive/Concrete_Data.xls
   local_data_file: artifacts/data_ingestion/data.xls
   unzip_dir: artifacts/data_ingestion
-  
+  ingested_data_train_dir: artifacts/data_ingestion/train
+  ingested_data_test_dir: artifacts/data_ingestion/test
