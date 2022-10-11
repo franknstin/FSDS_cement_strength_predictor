@@ -1,0 +1,9 @@
+columns:
+  Cement: float            
+  Blast Furnace Slag: float
+  Fly Ash: float             
+  Water: float               
+  Superplasticizer: float   
+  Coarse Aggregate: float   
+  Fine Aggregate: float 
+  Age: int
