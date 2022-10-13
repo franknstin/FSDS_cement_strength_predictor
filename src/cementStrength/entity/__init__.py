@@ -1,1 +1,1 @@
-from cementStrength.entity import *
+from cementStrength.entity.config_entity import *
