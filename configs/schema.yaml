@@ -1,9 +1,9 @@
 columns:
-  Cement: float            
-  Blast Furnace Slag: float
-  Fly Ash: float             
-  Water: float               
-  Superplasticizer: float   
-  Coarse Aggregate: float   
-  Fine Aggregate: float 
+  Cement: float64            
+  Blast Furnace Slag: float64
+  Fly Ash: float64             
+  Water: float64               
+  Superplasticizer: float64   
+  Coarse Aggregate: float64   
+  Fine Aggregate: float64 
   Age: int
