@@ -52,3 +52,6 @@ class DataIngestion:
             logger.info("saving X_test....")
             X_test.to_csv(test_file_path, index=False)
             logger.info("saved X_test")
+
+    def initiate_data_ingestion(self):
+        pass
